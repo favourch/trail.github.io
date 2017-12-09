@@ -1,0 +1,18 @@
+/*
+ * Responsee CSS - v3.1 - 2016-04-15
+ * https://www.myresponsee.com
+ * Copyright 2016, Vision Design - graphic zoo
+ * Free to use under the MIT license.
+*/
+
+img {
+  border:0;
+  display:block;
+  height:auto;
+  max-width:100%;
+  width:auto;
+}
+.owl-item img, .full-img {
+  max-width: none;
+  width:100%;
+}  
