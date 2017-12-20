@@ -1,0 +1,203 @@
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+           Equilibrio 2k18
+        </title><!-- Behavioral Meta Data -->
+		<link rel="icon" type="image/png" href="images/logo.png">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><!-- Core Meta Data -->
+        
+
+        <link href="favicon.png" rel="shortcut icon" type="image/png">
+<!---Bootstrap--->
+		      <link href="css/bootstrap.min.css" rel="stylesheet">  
+        
+        <!-- CSS -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'><!-- Styles -->
+        <link href="css/loader.css" rel="stylesheet" type="text/css">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--[if lt IE 9]>-->
+            <link rel="stylesheet" type="text/css" href="css/ie.css" />
+			
+      <!--  <![endif]-->
+        <!-- Javascript -->
+
+       <script src="js/jquery.js"></script>
+	  
+	   
+
+    </head>
+    <body>
+       <!--<div class="preloader">
+            <div class="loading">
+                <h2>
+                    Loading...
+                </h2>
+                <span class="progress"></span>
+            </div>
+        </div>-->
+	
+		<div class="navbar navbar-inverse navbar-static-top" style="background:transparent; border:0px; margin-top:20px; margin-left:10%">
+			<div class="container" style="font-family:'Elianto';">
+				<a href="#" class="navbar-brand" style="font-family:Elianto; color:#ffffff" ><b>EQUILIBRIO</b></a>
+								<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>
+					<div class="collapse navbar-collapse navHeaderCollapse" style="font-family:Elianto; color:#ffffff;">
+						<ul class="nav navbar-nav navbar-right" >
+							<li> <a href="#" style="color:#ffffff">HOME</a></li>
+							<li> <a href="inside/event.html" style="color:#ffffff">EVENT</a></li>
+							<li> <a href="inside/workshop.html" style="color:#ffffff">WORKSHOP</a></li>
+							<li> <a href="inside/gallary/index.html" style="color:#ffffff">GALLARY</a></li>
+							<li> <a href="team/index.html" style="color:#ffffff">TEAM</a></li>
+							<li> <a href="inside/sponsors.html" style="color:#ffffff">SPONSORS</a></li>
+							<li> <a href="inside/contact.html" style="color:#ffffff">CONTECT</a></li>
+							<li> <a href="inside/schedule.php" style="color:#ffffff">SCHEDULE</a></li>
+									
+							<li class="dropdown"> 
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1" type="button" aria-haspopup="true"
+								area-expanded="true" style="color:#ffffff">MORE <b class="caret"></b></a>
+								<ul class="dropdown-menu"  aria-labelledby="dropdownMenu1" >
+									<li> <a href="inside/initiatives.php" style="color:#000000">INITIATIVE</a></li>
+									<li> <a href="inside/accommodation.php" style="color:#000000">ACCOMMODATION</a></li>
+									<li> <a href="inside/campusambassador.php" style="color:#000000">CAMPUS AMBASSADOR</a></li>
+										
+								</ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+         </div>
+		
+		
+        <div class="wrapper">
+            <ul class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" id="scene">
+            
+                <!-- BG -->
+
+                <li class="layer" data-depth="0.00">
+                    <div>
+					<video autoplay loop muted poster="images/background.jpg" id="background" style="hight:0%;">
+					<source src="images/vido.mp4" type="video/mp4">
+					</video>
+					</div>
+                </li>
+
+                <!-- Hero -->
+
+                <li class="layer" data-depth="0.00">
+                    
+                </li>
+
+				
+
+                <li class="layer" data-depth="0.30">
+                    <div class="sphere" >
+                        <img alt="sphere" src="images/sphere.pn"style="margin-top:1000px;">
+                    </div>
+                </li>
+
+                
+                <!-- Flakes -->
+
+                <li class="layer" data-depth="0.40">
+                    <div class="depth-1 flake1">
+                        <img alt="flake" src="images/flakes/depth1/flakes1.png">
+                    </div>
+
+                    <div class="depth-1 flake2">
+                        <img alt="flake" src="images/flakes/depth1/flakes2.png">
+                    </div>
+
+                    <div class="depth-1 flake3">
+                        <img alt="flake" src="images/flakes/depth1/flakes3.png">
+                    </div>
+
+                    <div class="depth-1 flake4">
+                        <img alt="flake" src="images/flakes/depth1/flakes4.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.50">
+                    <div class="depth-2 flake1">
+                        <img alt="flake" src="images/flakes/depth2/flakes1.png">
+                    </div>
+
+                    <div class="depth-2 flake2">
+                        <img alt="flake" src="images/flakes/depth2/flakes2.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.60">
+                    <div class="depth-3 flake1">
+                        <img alt="flake" src="images/flakes/depth3/flakes1.png">
+                    </div>
+
+                    <div class="depth-3 flake2">
+                        <img alt="flake" src="images/flakes/depth3/flakes2.png">
+                    </div>
+
+                    <div class="depth-3 flake3">
+                        <img alt="flake" src="images/flakes/depth3/flakes3.png">
+                    </div>
+
+                    <div class="depth-3 flake4">
+                        <img alt="flake" src="images/flakes/depth3/flakes4.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.80">
+                    <div class="depth-4">
+                        <img alt="flake" src="images/flakes/depth4/flakes.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="1.00">
+                    <div class="depth-5">
+                        <img alt="flake" src="images/flakes/depth5/flakes.png">
+                    </div>
+                </li>
+                <!-- Contact -->
+
+                <li class="layer" data-depth="0.20">
+                    <div class="contact" style="color:#ffffff;">
+                        <ul class="icons">
+                            <li>
+                                <a class="behance" href="#" style="color:blue; font-size:36px; text-shadow:2px 2px 4px #000000;opacity: 1;"><i class="fa fa-facebook"></i></a>
+                            </li>
+
+                            <li>
+                                <a class="instagram" href="#" style="color:#fb3958; font-size:36px; text-shadow:2px 2px 4px #000000; padding-left:5px;opacity: 1;"><i class="fa fa-instagram"></i></a>
+                            </li>
+							
+                            <li>
+                                <a class="youtube" href="#" style="color:red; font-size:36px; text-shadow:2px 2px 4px #000000; padding-left:.5cm;opacity: 1;"><i class="fa fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#" style="color: #0084b4; font-size:36px; text-shadow:2px 2px 4px #000000;padding-left:.7cm; opacity: 1;"><i class="fa fa-twitter"></i></a>
+                            </li>
+
+                        </ul>
+                          follow us                     
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Javascript -->
+		<script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		
+    </body>
+</html>
