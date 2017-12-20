@@ -9,7 +9,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>Accomodation|Equilibrio 2k17</title>
+<title>Accomodation|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -29,6 +29,9 @@
 <link href="eventcss/responsive.css" rel="stylesheet" />
 <link href="formcss/css/bootstrap.min.css" rel="stylesheet">
 <link href="formcss/css/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/acco.css">
+	<script src="js/modernizr.js"></script>
 
 <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -65,13 +68,13 @@
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 <li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -90,6 +93,7 @@
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -103,15 +107,280 @@
 </div>
 <div class="row pad-bottom animate-in" data-anim-type="fade-in-up">
 
-<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
 
-
+<h1> quick contect</h1>
 
 </div>
 
-<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="background:white;padding:20px;">
+<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" style="background:transparent;padding:0px;">
 
-            <form action="#" method="post">
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.3305" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+      setTimeout(function() {
+          $('input_4').hint('sLes');
+       }, 20);
+      setTimeout(function() {
+          $('input_5').hint('sLes@sLes.sLes');
+       }, 20);
+      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the Credit Card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","confirmClearForm":"Are you sure you want to clear the form?","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","email":"Enter a valid e-mail address","fillMask":"Field value must fill mask.","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","lessThan":"Your score should be less than or equal to","maxDigitsError":"The maximum digits allowed is","maxSelectionsError":"The maximum number of selections allowed is","minSelectionsError":"The minimum required number of selections is","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","nextButtonText":"Next","numeric":"This field can only contain numeric values","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","prevButtonText":"Previous","progressMiddleText":"of","required":"This field is required.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","reviewBackText":"Back to Form","reviewSubmitText":"Review and Submit","seeAllText":"See All","submissionLimit":"Sorry! Only one entry is allowed.  Multiple submissions are disabled for this form.","submitButtonText":"Submit","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});
+	JotForm.clearFieldOnHide="disable";
+	JotForm.submitError="jumpToFirstError";
+    /*INIT-END*/
+});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"accommodationForm","qid":"1","text":"Accommodation Form","type":"control_head"},{"name":"submit2","qid":"2","text":"SEND","type":"control_button"},null,{"name":"yourName","qid":"4","text":"YOUR NAME","type":"control_textbox"},{"name":"email","qid":"5","text":"Email","type":"control_email"},{"name":"object","qid":"6","text":"OBJECT","type":"control_textbox"},{"name":"message","qid":"7","text":"MESSAGE","type":"control_textarea"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"accommodationForm","qid":"1","text":"Accommodation Form","type":"control_head"},{"name":"submit2","qid":"2","text":"SEND","type":"control_button"},null,{"name":"yourName","qid":"4","text":"YOUR NAME","type":"control_textbox"},{"name":"email","qid":"5","text":"Email","type":"control_email"},{"name":"object","qid":"6","text":"OBJECT","type":"control_textbox"},{"name":"message","qid":"7","text":"MESSAGE","type":"control_textarea"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.3305" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.3305" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.3305" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?"/>
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+.form-label.form-label-auto {
+        
+        display: inline-block;
+        float: left;
+        text-align: right;
+      
+      } /*PREFERENCES STYLE*/
+    .form-all {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-header-group {
+      font-family: Lucida Grande, sans-serif;
+    }
+    .form-label {
+      font-family: Lucida Grande, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: inline-block;
+    float: left;
+    text-align: right;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  
+    .form-all {
+      width: 690px;
+    }
+  
+    .form-label-left,
+    .form-label-right,
+    .form-label-left.form-label-auto,
+    .form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 14px
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 14px
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 14px
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: #fff;
+      border: 1px solid transparent;
+    }
+  
+    .form-all {
+      color: #555;
+    }
+    .form-header-group .form-header {
+      color: #555;
+    }
+    .form-header-group .form-subHeader {
+      color: #555;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: #555;
+    }
+    .form-sub-label {
+      color: #6f6f6f;
+    }
+  
+    .supernova {
+      background-color: #f5f5f5;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: #fff;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+    .form-all {
+      background-image: none;
+    }
+  
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+</style>
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-flat_round_teal.css?3.3.3305"/>
+<form class="jotform-form" action="https://submit.jotform.me/submit/73444552503453/" method="post" name="form_73444552503453" id="73444552503453" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="73444552503453" />
+  <div class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group ">
+          <div class="header-text httac htvam">
+            <h1 id="header_1" class="form-header" data-component="header">
+              Accommodation Form
+            </h1>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_4">
+        <label class="form-label form-label-right form-label-auto" id="label_4" for="input_4">
+          YOUR NAME
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_4" class="form-input jf-required">
+          <input type="text" id="input_4" name="q4_yourName" data-type="input-textbox" class="form-textbox validate[required]" size="30" value="" placeholder="sLes" data-component="textbox" required="" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_email" id="id_5">
+        <label class="form-label form-label-right form-label-auto" id="label_5" for="input_5">
+          Email
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_5" class="form-input jf-required">
+          <span class="form-sub-label-container" style="vertical-align:top;">
+            <input type="email" id="input_5" name="q5_email" class="form-textbox validate[required, Email]" size="30" value="" placeholder="sLes@sLes.sLes" data-component="email" required="" />
+            <label class="form-sub-label" for="input_5" style="min-height:13px;"> sLes@equifest.in </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_6">
+        <label class="form-label form-label-right form-label-auto" id="label_6" for="input_6"> OBJECT </label>
+        <div id="cid_6" class="form-input">
+          <input type="text" id="input_6" name="q6_object" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textarea" id="id_7">
+        <label class="form-label form-label-right form-label-auto" id="label_7" for="input_7">
+          MESSAGE
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_7" class="form-input jf-required">
+          <textarea id="input_7" class="form-textarea validate[required]" name="q7_message" cols="40" rows="6" data-component="textarea" required=""></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div style="text-align:center;" class="form-buttons-wrapper">
+            <button id="input_2" type="submit" class="form-submit-button form-submit-button-flat_round_teal" data-component="button">
+              SEND
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="73444552503453" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "73444552503453-73444552503453";
+  </script>
+ <!-- <div class="formFooter-heightMask">
+  </div>
+  <div class="formFooter">
+    <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=73444552503453&utm_content=jotform_logo&utm_campaign=powered_by_jotform_signup_hp" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo/logo-new@1x.png" alt="" style="height: 44px;"></a>
+    <div class="formFooter-rightSide">
+      <span class="formFooter-text">
+        Now create your own JotForm - It's free!
+      </span>
+      <a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=73444552503453&utm_content=jotform_button&utm_campaign=powered_by_jotform_signup_hp" target="_blank">Create your own JotForm</a>
+    </div>
+  </div>-->
+</form>
+<script type="text/javascript">JotForm.ownerView=true;</script>
+           <!-- <form action="#" method="post">
                 <h3 style="color:#e44f4f;text-align:center">Accommodation Form</h3>
                 <hr><br>
                 <div class="row">
@@ -143,7 +412,7 @@
                         <a href="#" class="btn btn-box">Send</a>
                     </div>
                 </div>
-            </form>
+            </form>-->
 </div>
 </div>
 
@@ -151,7 +420,9 @@
 
 </div>
 </section>
-<section style="margin-top:50px">
+</div>
+<section style="margin-top:-10%">
+<h1 style="text-align:center;">Events</h1>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -280,7 +551,6 @@
           <ul style="list-style-type:none;">
             <li><a href="schedule.php">SCHEDULE</a></li>
             <li><a href="initiatives.php">INITIATIVES</a></li>
-            <li><a href="accommodation.php">ACCOMMODATION</a></li>
             <li><a href="campusambassador.php">CAMPUS AMBASSADOR</a></li>
            
           </ul>
@@ -326,6 +596,9 @@
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+ <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -8,7 +8,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>Funzone|Equilibrio 2k17</title>
+<title>Funzone|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -24,7 +24,9 @@
 <link href="assets/css/style-solid-black.css" rel="stylesheet" />
 <link href="eventcss/style1.css" rel="stylesheet" />
 
-
+ <link rel="stylesheet" href="css/main.css">
+	<script src="js/modernizr.js"></script>
+	
 <link href="eventcss/responsive.css" rel="stylesheet" />
 <link href="formcss/css/bootstrap.min.css" rel="stylesheet">
 <link href="formcss/css/style.css" rel="stylesheet">
@@ -75,18 +77,18 @@ background:url(parallax/css/images/cs2.png) no-repeat;}
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li class="active"><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 <li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
           <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
@@ -100,6 +102,7 @@ background:url(parallax/css/images/cs2.png) no-repeat;}
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -208,12 +211,12 @@ background:url(parallax/css/images/cs2.png) no-repeat;}
 <h2 style="color:rgb(228, 79, 79);">Event Coordinator</h2>
 <div class="media testimonial-inner">
 <div class="pull-left">
-<img class="img-responsive img-circle" src="assets/img/team/head/31.png">
+<!--<img class="img-responsive img-circle" src="assets/img/team/head/31.png">-->
 </div>
 <div class="media-body"><br>
-<h3 style="color:#fff;margin-left:10px">Bhupendra Singh</h3>
+<!--<h3 style="color:#fff;margin-left:10px">Bhupendra Singh</h3>
 
-<h4 style="color:#fff;margin-left:10px">Ph no. 7898690524</h4>
+<h4 style="color:#fff;margin-left:10px">Ph no. 7898690524</h4>-->
 </div>
 
 
@@ -222,25 +225,26 @@ background:url(parallax/css/images/cs2.png) no-repeat;}
 	
   <div class="media testimonial-inner">
 <div class="pull-left">
-<img class="img-responsive img-circle" src="assets/img/team/head/32.jpg">
+<!--<img class="img-responsive img-circle" src="assets/img/team/head/32.jpg">-->
 </div>
 <div class="media-body"><br>
-<h3 style="color:#fff;margin-left:10px">Danish Manjar</h3>
+<!--<h3 style="color:#fff;margin-left:10px">Danish Manjar</h3>
 
-<h4 style="color:#fff;margin-left:10px">Ph no. 9891608975</h4>
+<h4 style="color:#fff;margin-left:10px">Ph no. 9891608975</h4>-->
 </div>
  </div> 
   <!-- Trigger the modal with a button -->
    <br><br><br>
-    <a data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false" class="btn btn-custom btn-custom-two">Register</a>
+   <!-- <a data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false" class="btn btn-custom btn-custom-two">Register</a>-->
     <div style="padding:20px;display:inline">
-    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="57" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=80&height=20&appId" width="80" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</div>
   <!-- Modal -->
 
 </div>
 
 </section>
-
+</div>
 <!--GRID SECTION END-->
 
 
@@ -250,7 +254,7 @@ background:url(parallax/css/images/cs2.png) no-repeat;}
 
 <!--gallery-->
 
-<section id="work" >
+<!--<section id="work" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -440,8 +444,9 @@ background:url(parallax/css/images/cs2.png) no-repeat;}
 </div>
 </div>
 </div>
-</section>
+</section>-->
 <section style="margin-top:50px">
+<h3 style="text-align:center;"> EVENTS</h3>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -613,6 +618,9 @@ background:url(parallax/css/images/cs2.png) no-repeat;}
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+<script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

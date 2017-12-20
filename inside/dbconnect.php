@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","u926700445_root","password","u926700445_dbase");
+$con=mysqli_connect("localhost","root","","testdb");
 // Check connection
 if (!$con)
   {

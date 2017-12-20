@@ -9,7 +9,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>LogicLeague|Equilibrio 2k17</title>
+<title>LogicLeague|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -26,6 +26,9 @@
 <link href="eventcss/style1.css" rel="stylesheet" />
 
 
+ <link rel="stylesheet" href="css/cmain.css">
+	<script src="js/modernizr.js"></script>
+	
 <link href="eventcss/responsive.css" rel="stylesheet" />
 <link href="formcss/css/bootstrap.min.css" rel="stylesheet">
 <link href="formcss/css/style.css" rel="stylesheet">
@@ -76,18 +79,18 @@ background:url(parallax/css/images/roboterry2.png) no-repeat;}
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li class="active"><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 <li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
           <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
@@ -199,8 +202,8 @@ It consist of digital circuit designing . Question are display on screen through
 <img class="img-responsive img-circle" src="eventhead.png">
 </div>
 <div class="media-body">
-<h3 style="color:#fff;margin-left:10px">Amit Kumar Singh</h3>
-<h4 style="color:#fff;margin-left:10px">Ph no. 9456233564</h4>
+<!--<h3 style="color:#fff;margin-left:10px">Amit Kumar Singh</h3>
+<h4 style="color:#fff;margin-left:10px">Ph no. 9456233564</h4>-->
 </div>
 </div>
 
@@ -211,7 +214,7 @@ It consist of digital circuit designing . Question are display on screen through
   <br><br><br>
     <a data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false" class="btn btn-custom btn-custom-two">Register</a>
     <div style="padding:20px;display:inline">
-    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="57" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="80" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
@@ -618,7 +621,7 @@ It consist of digital circuit designing . Question are display on screen through
 
 </div>
 </section>
-
+</div>
 <!--GRID SECTION END-->
 <section id="workshops" >
 <div class="container">
@@ -690,7 +693,7 @@ PARTICIPANTS
 
 <!--gallery-->
 
-<section id="work" >
+<!--<section id="work" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -880,8 +883,9 @@ PARTICIPANTS
 </div>
 </div>
 </div>
-</section>
-<section style="margin-top:50px">
+</section>-->
+<section style="margin-top:-10%">
+<h3 style="text-align:center">EVENTS</h3>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -1053,6 +1057,9 @@ PARTICIPANTS
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+ <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

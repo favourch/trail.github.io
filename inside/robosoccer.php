@@ -8,7 +8,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>RoboSoccer|Equilibrio 2k17</title>
+<title>RoboSoccer|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -25,6 +25,9 @@
 <link href="eventcss/style1.css" rel="stylesheet" />
 
 
+ <link rel="stylesheet" href="css/cmain.css">
+	<script src="js/modernizr.js"></script>
+	
 <link href="eventcss/responsive.css" rel="stylesheet" />
 <link href="formcss/css/bootstrap.min.css" rel="stylesheet">
 <link href="formcss/css/style.css" rel="stylesheet">
@@ -75,18 +78,18 @@ background:url(parallax/css/images/war1.png) no-repeat;}
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li class="active"><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 <li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
           <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
@@ -94,12 +97,14 @@ background:url(parallax/css/images/war1.png) no-repeat;}
 </ul>
 </div>
 
+
 </div>
 </div>
 <!--MENU SECTION END-->
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -136,13 +141,14 @@ background:url(parallax/css/images/war1.png) no-repeat;}
 
 </div>
 <div class="media-body">
-
-<p>For all those who have passion in Robotics or Sports, Equilibrio 2k17 presents ‘ROBO SOCCER’.
-This competition is to show how good and swift robot of yours can be by playing soccer using it and scoring more goals.<br>Teams are required to build a wired/wireless robot which is capable to play a soccer match with each other.
-</p><br>
+<h4>INTRODUCTION</h4>
+<p>This event is a platform for participants to showcase their robotics
+Talents and also to bring alive the football spirit .They are required
+to build two manually controlled bots capable of playing soccer on an
+arena specially designed for the robotics soccer match.</p><br>
 <h4>Bot Specification</h4>
 <ol><li>Maximum dimension limit of bot is  30cm×30cm×25cm (l×w×h).</li><br>
-<li>Grabing and blocking mechanisms are not allowed..</li><br>
+<li>Grabing mechanisms are not allowed..</li><br>
 <li>The motors to be used for bot’s motion is within the range of 0-300 rpm. It will be checked in different conditions.</li><br>
 </ol>
 <h4>Power Supply</h4>
@@ -171,12 +177,12 @@ This competition is to show how good and swift robot of yours can be by playing 
 <li> Bot will be placed at start zone of the arena at the starting of the match.</li>
 <li>In case of zam up of bots for more than 15 seconds, the ball will be kicked off against the command of the referee.</li>
 <li> In case of bot problems during match (only motor problem, connection loose), maximum of 15 minutes will be given for repair with -1 point for each 5 minutes.</li>
-<li>For each goal +10 points are awarded.</li>
+<li>For each goal +10 points are awarded in first 6 minutes of each half.</li>
 <li> In powerplay of 1 minute (3-4 minute) of each half, +15 points are awardedfor each goal.</li>
 <li> During (5-6) minute of each half defenders will be removed from both side.</li>
 <li> Teams with maximum points will be winner.</li>
-<li> In case of tie, a golden goal rule will be applied.the team scoring first in extra time will win the match.
-for semifinals and final match arena will be different (but dimensions of arena will be same). </li>
+<li> In case of tie, a golden goal rule will be applied.the team scoring first in extra time will win the match.</li>
+<li> For semifinals and final match arena will be different. </li>
 </ol>
 
 
@@ -188,8 +194,8 @@ for semifinals and final match arena will be different (but dimensions of arena 
 <p>
 <h3>RULES</h3>
 <ol><li>Each team must have maximum three members.</li><br>
-<li>Teams will have to submit their bots before an hour of starting the event.</li><br>
-<li>Any type of changes or modification are not allowed after submiting bot.</li><br>
+<li>Teams will have to submit their bots before an hour of starting the event.</li><br><!--
+<li>Any type of changes or modification are not allowed after submiting bot.</li><br>-->
 <li>Ready made logo kit and ic engine are not allowed.</li><br>
 <li>Ready made gear assemblies can be used.</li><br>
 <li>Bots will not be allowed which are found unsafe for other teams or spectators.</li><br>
@@ -198,8 +204,15 @@ for semifinals and final match arena will be different (but dimensions of arena 
 </ol>     
 </p>
 </div>
-<div class="tab-pane fade" id="tab4">
+<!--<div class="tab-pane fade" id="tab4">
 <p><H3>RULES FOR FOUL</H3>
+<ol>
+
+</ol>
+</p>
+</div>-->
+<div class="tab-pane fade" id="tab5">
+<p><H3>DISQUALIFICATION </H3>
 <ol>
 <li>Any type of intentional damage caused to apponent team’s bot will be considered as foul.</li><br>
 <li>If bot hits defender of opponent team.</li><br>
@@ -207,12 +220,7 @@ for semifinals and final match arena will be different (but dimensions of arena 
 <li>In case of foul a free kick will be given to the other team from fix arc ‘y’ point during which bot of the team committing the foul will be freezed at freeze point.</li><br>
 <li>Decision of the referee will be final.</li><br>
 
-</ol>
-</p>
-</div>
-<div class="tab-pane fade" id="tab5">
-<p><H3>DISQUALIFICATION </H3>
-<ol><li>If a team fails to adhere to size of bot as specification.</li><br>
+<li>If a team fails to adhere to size of bot as specification.</li><br>
 <li>If a team damages the arena in any way.</li><br>
 <li>If a team commits repeated fouls more than five times.</li><br>
 <li>Teams may be disqualified on disciplinary grounds.</li><br>
@@ -254,8 +262,8 @@ for semifinals and final match arena will be different (but dimensions of arena 
 <img class="img-responsive img-circle" src="assets/img/team/head/soccer.jpg">
 </div>
 <div class="media-body"><br>
-<h3 style="color:#fff;margin-left:10px">Rishiraj Sharma</h3>
-<h4 style="color:#fff;margin-left:10px">Ph no. 8962374467</h4>
+<!--<h3 style="color:#fff;margin-left:10px">Rishiraj Sharma</h3>
+<h4 style="color:#fff;margin-left:10px">Ph no. 8962374467</h4>-->
 </div>
 </div>
 
@@ -266,7 +274,7 @@ for semifinals and final match arena will be different (but dimensions of arena 
   <br><br><br>
     <a data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false" class="btn btn-custom btn-custom-two">Register</a>
     <div style="padding:20px;display:inline">
-    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="57" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="80" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
@@ -673,7 +681,7 @@ for semifinals and final match arena will be different (but dimensions of arena 
 
 </div>
 </section>
-
+</div>
 <!--GRID SECTION END-->
 <section id="workshops" >
 <div class="container">
@@ -745,7 +753,7 @@ PARTICIPANTS
 
 <!--gallery-->
 
-<section id="work" >
+<!--<section id="work" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -935,8 +943,9 @@ PARTICIPANTS
 </div>
 </div>
 </div>
-</section>
-<section style="margin-top:50px">
+</section>-->
+<section style="margin-top:-10%">
+<h3 style="text-align:center">EVENTS</h3>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -1108,6 +1117,9 @@ PARTICIPANTS
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+ <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

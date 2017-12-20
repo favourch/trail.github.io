@@ -9,7 +9,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>Snakobot|Equilibrio 2k17</title>
+<title>Snakobot|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="../assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="../assets/css/bootstrap.css" rel="stylesheet" />
@@ -53,24 +53,26 @@
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../basic.php#home">HOME</a></li>
-<li class="active"><a href="../basic.php#events">EVENTS</a></li>
-<li><a href="../basic.php#workshops">WORKSHOP</a></li>
-<li><a href="../basic.php#gallery">GALLERY</a></li>
-<li><a href="../basic.php#team">TEAM</a></li>
-<li><a href="../basic.php#sponsors">SPONSORS</a></li>
-<li><a href="../basic.php#contact">CONTACT</a></li>
-<li><a href="../schedule.php">SCHEDULE</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
-        <li><a href="../initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="../accommodation.php"><b>ACCOMODATION</b></a></li>
-          <li><a href="../campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
+        <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+          <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
       </li>
 </ul>
 </div>
+
+
 
 </div>
 </div>

@@ -9,7 +9,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>Robowar|Equilibrio 2k17</title>
+<title>Robowar|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -25,6 +25,9 @@
 <link href="assets/css/style-solid-black.css" rel="stylesheet" />
 <link href="eventcss/style1.css" rel="stylesheet" />
 
+ <link rel="stylesheet" href="css/cmain.css">
+	<script src="js/modernizr.js"></script>
+	
 
 <link href="eventcss/responsive.css" rel="stylesheet" />
 <link href="formcss/css/bootstrap.min.css" rel="stylesheet">
@@ -77,18 +80,18 @@ background:url(parallax/css/images/war2.png) no-repeat;}
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li class="active"><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 <li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
           <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
@@ -103,7 +106,7 @@ background:url(parallax/css/images/war2.png) no-repeat;}
 
 <!--GRID SECTION START-->
 
-
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -306,12 +309,12 @@ must mandatorily mention the range of frequencies they are going to use to contr
 robot, if it is radio-controlled. Teams have to specify whether the bot is having any
 autonomous parts; if it does, then the functionality of the part has to be described as well.
 The weapons systems and power supply systems should also be explained in as much
-detail as possible, along with proper diagrams. Picture(s) showing these should be
+detail as possible, along with proper diagrams. Picture(s)</li> </br><li>showing these should be
 attached to the document. Description of any unusual advantageous mechanism used
 must also be detailed. The specifications of all the components used, including motors,
 suspension springs, remote controllers, wires, batteries, etc. have to be mentioned. The
-abstract can be sent as a PDF File; alternately, the abstract can be submitted on paper.<br>
-The blueprint of the bots should be e mailed to robowar.equilibri02kl7@gmail.com</li>
+abstract can be sent as a PDF File; alternately, the abstract can be submitted on paper.</li><br>
+<li>The blueprint of the bots should be e mailed to <!--robowar.equilibri02kl7@gmail.com--></li>
 <br>
 <li>If you are unable to send your entire blueprint Within the deadline, make sure that you
 send at least the abstract alone.</li><br>
@@ -374,10 +377,10 @@ Event safety Disclaimer
 <div class="tab-pane fade" id="tab9">
 <p><H3>ARENA</H3>
 
-Arena will be a square in shape of total area 16sq foot.<br>
+<!--Arena will be a square in shape of total area 16sq foot.<br>
 A green square area of 1000mm X 1000mm at one corner side of the arena will be the starting zone for the bot. <br>
 The two starting zones will be placed at the two comers of the arena.  The arena will have two red danger zones (1000mm x 1500mm).  Pushing the opponent's bot into one of danger zone will fetch you points.  The arena will be made of wood and will be at a height of 400mm (approx.) above the ground.<br><br><br>
-<p>
+--><p>
 <style type="text/css">@media only screen and (max-width: 450px) {
     .snakoarena {
         width: 95%;
@@ -410,8 +413,8 @@ The two starting zones will be placed at the two comers of the arena.  The arena
 <img class="img-responsive img-circle" src="eventhead.png">
 </div>
 <div class="media-body">
-<h3 style="color:#fff;margin-left:10px">Pankaj Kumar</h3>
-<h4 style="color:#fff;margin-left:10px">Ph no. 7389807952</h4>
+<h3 style="color:#fff;margin-left:10px"><!--Pankaj Kumar--></h3>
+<h4 style="color:#fff;margin-left:10px"><!--Ph no. 7389807952--></h4>
 </div>
 </div>
 
@@ -422,7 +425,7 @@ The two starting zones will be placed at the two comers of the arena.  The arena
   <br><br><br>
   	<a data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false" class="btn btn-custom btn-custom-two">Register</a>
     <div style="padding:20px;display:inline">
-    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="57" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="80" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
@@ -829,7 +832,7 @@ The two starting zones will be placed at the two comers of the arena.  The arena
 
 </div>
 </section>
-
+</div>
 <!--GRID SECTION END-->
 
 <section id="workshops" >
@@ -900,7 +903,7 @@ PARTICIPANTS
 
 <!--gallery-->
 
-<section id="work" >
+<!--<section id="work" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -1091,8 +1094,9 @@ PARTICIPANTS
 </div>
 </div>
 </section>
-
-<section style="margin-top:50px">
+-->
+<section style="margin-top:-10%">
+<h3 style="text-align:center">EVENTS</h3>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -1265,6 +1269,9 @@ PARTICIPANTS
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+ <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

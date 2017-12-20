@@ -1,0 +1,114 @@
+@font-face{
+	font-family:'Elianto';
+	src: url(Elianto.otf);
+}
+
+
+
+/* ===================================================================
+ * 09. home - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+#h.h-particles {
+	background: #000000;
+	
+	overflow: hidden;
+}
+#h.h-particles .pg-canvas {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: 100% !important;
+	width: 100% !important;
+	opacity: 1;
+}
+#h.h-particles .shadow-overlay {
+	display: none;
+
+}
+
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * home section 
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1200px) {
+	.main-content-tablecell #counter {
+		margin-bottom: 2.4rem;
+	}
+	.main-content-tablecell #counter span {
+		font-size: 11rem;
+	}
+}
+@media only screen and (max-width:1024px) {
+	.main-content-tablecell h1 {
+		font-size: 3.5rem;
+	}
+	.main-content-tablecell p {
+		font-size: 1.7rem;
+	}
+}
+@media only screen and (max-width:768px) {
+	.main-content-tablecell #counter {
+		margin-bottom: 1.2rem;
+	}
+	.main-content-tablecell #counter span {
+		font-size: 10.4rem;
+	}
+	.main-content-tablecell .row {
+		padding-bottom: 12rem;
+	}
+	.main-content-tablecell h1 {
+		font-size: 3.2rem;
+	}
+	.main-content-tablecell p {
+		font-size: 1.6rem;
+	}
+	.scroll-icon {
+		right: 45px;
+	}
+	.scroll-icon .scroll-text {
+		font-size: 1.4rem;
+	}
+}
+@media only screen and (max-width:600px) {
+	#home {
+		min-height: 700px;
+	}
+	.main-content-tablecell #counter {
+		margin-bottom: .9rem;
+	}
+	.main-content-tablecell #counter span {
+		font-size: 8.4rem;
+	}
+	.main-content-tablecell h1 {
+		font-size: 2.7rem;
+	}
+}
+@media only screen and (max-width:500px) {
+	.main-content-tablecell #counter span {
+		font-size: 7.2rem;
+	}
+}
+@media only screen and (max-width:400px) {
+	#home {
+		min-height: 600px;
+	}
+	.main-content-tablecell #counter {
+		margin-bottom: 1.5rem;
+	}
+	.main-content-tablecell #counter span {
+		font-size: 6rem;
+		margin-bottom: .9rem;
+	}
+	.main-content-tablecell #counter span sup {
+		font-size: .2em;
+		top: -2.8em;
+	}
+	.main-content-tablecell h1 {
+		font-size: 2.4rem;
+	}
+}
+

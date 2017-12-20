@@ -9,7 +9,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>Initiatives|Equilibrio 2k17</title>
+<title>Initiatives|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -29,6 +29,9 @@
       <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
 
 <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+
+<link rel="stylesheet" href="css/init.css">
+	<script src="js/modernizr.js"></script>
 <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -55,18 +58,18 @@
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 <li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
-        <li class="active"><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+        <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
           <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
@@ -80,6 +83,7 @@
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -106,7 +110,7 @@
 </div>
 </div>
 </section>
-
+</div>
 <!--GRID SECTION END-->
 <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
 <!-- CORE JQUERY -->
@@ -145,6 +149,9 @@
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+ <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

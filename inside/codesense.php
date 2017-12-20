@@ -8,7 +8,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>CodeSense|Equilibrio 2k17</title>
+<title>CodeSense|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -25,6 +25,9 @@
 <link href="eventcss/style1.css" rel="stylesheet" />
 
 
+ <link rel="stylesheet" href="css/cmain.css">
+	<script src="js/modernizr.js"></script>
+	
 <link href="eventcss/responsive.css" rel="stylesheet" />
 <link href="formcss/css/bootstrap.min.css" rel="stylesheet">
 <link href="formcss/css/style.css" rel="stylesheet">
@@ -75,18 +78,18 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li class="active"><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 <li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
           <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
@@ -100,6 +103,7 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -133,17 +137,14 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
 
 </div>
 <div class="media-body">
-
-<p>The Idea behind this contest is to provide a platform for the students to showcase their talent in Programming. It is not just about writing codes, It is more about solving a problem quickly and writing elegant codes which will clear the time and memory constraints. It will test you for your creativity and your problem solving skills. </p>
-<h4>Event Format: </h4>
-<ul><li>The event consist of a single round in which contestants are required to solve as many problems they can out of five given programming problems in a limited time of three hours.</li><br>
-
-</ul>
-<h4>TEAM SIZE:</h4>
-<ul><li> A team will consist of only a single member. Participants are required to have an account on codechef.com</li><br>
-
-</ul>
-
+<h4>Hone your skills for ultimate competition</h4>
+<p><li>The Coding battle is about to take place . This event is a good
+opportunity to prove that you have the potential to handle the variety
+of problem in limited time . Prepare your self to stand at good place
+and to tell the world that you too can change the current world with
+your own skills . We ,the CODE SENSE team, is giving you the
+platform for CODING!!!.</li>
+And one more thing ,if you’re coming then give your best !!!!!
 </div>
 </div>
 </div>
@@ -153,7 +154,14 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
 
 </div>
 <div class="media-body">
+<h4>Event Format: </h4>
+<ul><li>The event consist of a single round in which contestants are required to solve as many problems they can out of five given programming problems in a limited time of three hours.</li><br>
 
+</ul>
+<h4>TEAM SIZE:</h4>
+<ul><li> A team will consist of only a single member. Participants are required to have an account on codechef.com</li><br>
+
+</ul>
 <h4>ROUNDS </h4>
 <ul><li>There will be an only one round which will be hosted on codechef.com</li><br>
 
@@ -163,29 +171,36 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
 
 </ol>
 
+
 </div>
 </div>
 </div>
 <div class="tab-pane fade" id="tab3">
 <p>
 <h4>Evaluation Criteria</h4>
-<ul><li>All submission will be tested against critical test cases. Passing all the test cases within the time limit will result in an AC verdict otherwise it will be termed as WA.</li><br>
+<ul><li>All submission will be tested against critical test cases.
+Passing all the test cases within the time limit will result in 100 % mark
+otherwise it will be termed as wrong answer.</li><br>
 
 </ul>
 <h4> Marking Scheme</h4>
-<ol><li>All the questions carry equal points. </li><br><li>There will be NO partial grading. </li><br><li>A correct submission will give 100 points while an incorrect submission will add a penalty of twenty minutes. </li><br><li>Details of failed test cases won't be visible. </li>
-
+<ol>All the questions carry equal points . A correct submission
+will give 100 points . Details of failed test cases won't be visible. You may
+encounter problem with multiple subtask and the marking will be percentage
+based (i.e. if your solution meet all subtask then you will be given 100 out of
+100 and if your solution meet some subtasks then you will be given percentage
+based marks).
 </ol>  <br>
-<h4> Resolution of Ties</h4>
+<!--<h4> Resolution of Ties</h4>
 <ul><li>Ties will be broken by the amount of time taken by the contestant to solve the problems. </li><br>
 
-</ul>    
+</ul>   --> 
 </p>
 </div>
 <div class="tab-pane fade" id="tab4">
 <p>
 <h4>DURATION </h4>
-<ul><li>There will be an only one round which will be hosted on codechef.com</li><br>
+<ul><li>The contest will be of three hours.</li><br>
 
 </ul>
 <h4>TIMING</h4>
@@ -216,9 +231,9 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
 <img class="img-responsive img-circle" src="eventhead.png">
 </div>
 <div class="media-body">
-<h3 style="color:#fff;margin-left:10px">Suraj Kumar</h3>
+<!--<h3 style="color:#fff;margin-left:10px">Suraj Kumar</h3>
 
-<h4 style="color:#fff;margin-left:10px">Ph no. 8602570673</h4>
+<h4 style="color:#fff;margin-left:10px">Ph no. 8602570673</h4>-->
 </div>
 </div>
 
@@ -227,11 +242,407 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
   
   <!-- Trigger the modal with a button -->
    <br><br><br>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUFuv2ck2jRwCveV6qi-Xd6kqrlfS5XU0NRCo5vhZkdThn6w/viewform" class="btn btn-custom btn-custom-two">Register</a>
+        <a data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false" class="btn btn-custom btn-custom-two">Register</a>
     <div style="padding:20px;display:inline">
-    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="57" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
-  <!-- Modal -->
-  
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fequifest.in&layout=button&mobile_iframe=true&width=57&height=20&appId" width="80" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+	<!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        
+        
+        <div class="modal-body">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      
+              <br><br>
+        <style type="text/css">
+                              
+                </style>
+        <form action="eventregister.php" method="post">
+                <h3 style="color:rgb(228, 79, 79);text-align:center">Event Registration</h3>
+                <br><br>
+      <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="text-decoration:none;color:#e44f4f">
+            General Information</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">
+             <div class="col-md-6">
+                       <label style="color:rgb(228, 79, 79);">No of Team Members</label>
+                        <div class="input-contact">
+                        <style type="text/css"> select{ height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0 20px;
+    float: left;
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+    font-size: 14px;
+    color: #404040;
+}
+</style>                  
+                            <select name="member">
+                             
+                            <option value="1">1</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                             </select>  
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label style="color:#e44f4f">Select your Event</label>
+                        <div class="input-contact">
+                          <select name="event">
+                               <option value="anti">AntiEarthquake Str.</option>
+                            <option value="band">Taal Sangram</option>
+                           <option value="bizwiz">Bizwhiz</option>
+                           <option value="brain">Brain Waves</option>
+                           <option value="cheme">Chem-eCar</option>
+                             <option value="mania">Chem-oMania</option>
+                             <option value="cod">Carnival Of Dance</option> 
+                              <option value="codebid">CodeBid</option>
+                             <option value="sense">CodeSense</option>
+                             <option value="counter">Counter Strike</option>
+                               <option value="designer">Design Er</option>
+                                 <option value="f1race">F1 Unleash the beast</option>
+                              <option value="fifa">Fifa</option>
+                               <option value="general">General Quiz</option>
+                               <option value="hydraulic">Hydraulic Crane</option>
+                               <option value="job">Job Battle</option>
+                               <option value="karyaneeti">Karyaneeti</option>
+                               <option value="lca">Light Camera Action</option>
+                            <option value="nfs">Need for Speed</option> 
+                             <option value="nirmaan">Nirmaan</option>
+                               <option value="paperp">Paper Presentation</option>
+                              <option value="petbottle">Pet-Bottle Rocket</option>
+                                <option value="roboterry">Roboterry</option>
+                               <option value="war">RoboWar</option>
+                                <option value="setu">Setu Sanrachna</option>
+                                  <option value="snakobot">SnakoBot</option>
+                                <option value="startup">Startup Mania</option>
+                                 <option value="technical">Technical Quiz</option>
+
+                            <option value="webpulse">WebPulse</option>
+                         <option value="soccer">Robo Soccer</option>
+                         <option value="aquabotix">Aquabotix</option>
+                         <option value="logicleague">Logic League</option>
+                         <option value="mini">Mini Militia</option>
+                             </select>  
+                        </div>
+                    </div>
+          </div>
+          </div>
+          </div>
+          <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="text-decoration:none;color:#e44f4f">
+            Member 1 Details</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+             <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name1" >
+                            <span>full name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email1" >
+                            <span>your email</span>
+                        </div>
+                    </div>
+           <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="age1" >
+                            <span>age</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" maxlength="10" name="number1" >
+                            <span>phone number</span>
+                        </div>
+                    </div>
+           <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="college1" >
+                            <span>college name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="branch1">
+                            <span>branch</span>
+                        </div>
+                    </div></div>
+          </div>
+          </div>
+          <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="text-decoration:none;color:#e44f4f">
+            Member 2 Details</a>
+            </h4>
+          </div>
+        <div id="collapse3" class="panel-collapse collapse">
+                      <div class="panel-body">
+                       <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name2" >
+                            <span>full name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email2" >
+                            <span>your email</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="age2" >
+                            <span>age</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" maxlength="10" name="number2" >
+                            <span>phone number</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="college2" >
+                            <span>college name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="branch2">
+                            <span>branch</span>
+                        </div>
+                    </div></div>
+                    </div>
+          </div>
+           <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="text-decoration:none;color:#e44f4f">
+            Member 3 Details</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+                      <div class="panel-body">
+                       <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name3" >
+                            <span>full name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email3" >
+                            <span>your email</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="age3" >
+                            <span>age</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" maxlength="10" name="number3" >
+                            <span>phone number</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="college3" >
+                            <span>college name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="branch3">
+                            <span>branch</span>
+                        </div>
+                    </div></div>
+                    </div>
+          </div> 
+                  <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" style="text-decoration:none;color:#e44f4f">
+            Member 4 Details</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+                      <div class="panel-body">
+                       <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name4" >
+                            <span>full name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email4" >
+                            <span>your email</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="age4" >
+                            <span>age</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" maxlength="10" name="number4" >
+                            <span>phone number</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="college4" >
+                            <span>college name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="branch4">
+                            <span>branch</span>
+                        </div>
+                    </div></div>
+                    </div>
+          </div> <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" style="text-decoration:none;color:#e44f4f">
+            Member 5 Details</a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+                      <div class="panel-body">
+                       <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name5" >
+                            <span>full name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email5" >
+                            <span>your email</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="age5" >
+                            <span>age</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" maxlength="10" name="number5" >
+                            <span>phone number</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="college5" >
+                            <span>college name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="branch5">
+                            <span>branch</span>
+                        </div>
+                    </div></div>
+                    </div>
+          </div> <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" style="text-decoration:none;color:#e44f4f">
+            Member 6 Details</a>
+            </h4>
+          </div>
+        <div id="collapse7" class="panel-collapse collapse">
+                      <div class="panel-body">
+                       <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name6" >
+                            <span>full name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email6" >
+                            <span>your email</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="age6" >
+                            <span>age</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" maxlength="10" name="number6" >
+                            <span>phone number</span>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="college6" >
+                            <span>college name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="branch6">
+                            <span>branch</span>
+                        </div>
+                    </div></div>
+                    </div>
+          </div>
+        </div>
+            
+                <div class="row">
+                 
+                    <div class="col-md-12">
+                      
+                          <button type="submit" class="btn btn-box" name="submit">Register</button>
+                    </div>
+                </div>
+            </form>
+</div>
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       
+        </div>
+      </div>
+    </div>
+ 
+</div>
 </div>
 </div>
 
@@ -240,7 +651,7 @@ background:url(parallax/css/images/codesense2.png) no-repeat;}
 
 </div>
 </section>
-
+</div>
 <!--GRID SECTION END-->
 <section id="workshops" >
 <div class="container">
@@ -310,7 +721,7 @@ PARTICIPANTS
 
 <!--gallery-->
 
-<section id="work" >
+<!--<section id="work" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -500,8 +911,9 @@ PARTICIPANTS
 </div>
 </div>
 </div>
-</section>
-<section style="margin-top:50px">
+</section>-->
+<section style="margin-top:-10%">
+<h3 style="text-align:center">EVENTS</h3>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -673,6 +1085,9 @@ PARTICIPANTS
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+ <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

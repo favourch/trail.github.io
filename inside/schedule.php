@@ -8,7 +8,7 @@
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
-<title>Schedule|Equilibrio 2k17</title>
+<title>Schedule|Equilibrio 2k18</title>
 <link rel="icon" type="image/png" href="assets/img/logo1.png" sizes="16x16">
 <!-- BOOTSTRAP CORE CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -23,16 +23,12 @@
 <!-- CUSTOM CSS -->
 <link href="assets/css/style-solid-black.css" rel="stylesheet" />
 <link href="style.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/smain.css">
+	<script src="js/modernizr.js"></script>
 
 
 
 
-<!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
 <style>
 table {
     border-collapse: collapse;
@@ -80,18 +76,18 @@ th {
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="../index.php">HOME</a></li>
-<li><a href="main.php#events">EVENTS</a></li>
-<li><a href="main.php#workshops">WORKSHOP</a></li>
-<li><a href="main.php#gallery">GALLERY</a></li>
-<li><a href="main.php#team">TEAM</a></li>
-<li><a href="main.php#sponsors">SPONSORS</a></li>
-<li><a href="main.php#contact">CONTACT</a></li>
-<li class="active"><a href="schedule.php">SCHEDULE</a></li>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="event.html">EVENTS</a></li>
+<li><a href="workshop.html">WORKSHOP</a></li>
+<li><a href="../gallary/index.html">GALLERY</a></li>
+<li><a href="../team/index.html">TEAM</a></li>
+<li><a href="sponsors.html">SPONSORS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="schedule.php">SCHEDULE</a></li>
 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
+       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
           <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
           
         </ul>
@@ -105,6 +101,7 @@ th {
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -290,7 +287,10 @@ th {
 
 </div>
 </section>
+</div>
+
 <section style="margin-top:50px">
+<h1 style="text-align:center;">Events</h1>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -417,7 +417,7 @@ th {
            <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <h4>USEFUL LINKS</h4>
           <ul style="list-style-type:none;">
-            <li><a href="schedule.php">SCHEDULE</a></li>
+           
             <li><a href="initiatives.php">INITIATIVES</a></li>
             <li><a href="accommodation.php">ACCOMMODATION</a></li>
             <li><a href="campusambassador.php">CAMPUS AMBASSADOR</a></li>
@@ -457,6 +457,8 @@ th {
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+ <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>
