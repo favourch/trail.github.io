@@ -23,6 +23,8 @@
 <!-- CUSTOM CSS -->
 <link href="assets/css/style-solid-black.css" rel="stylesheet" />
 <link href="eventcss/style1.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/main.css">
+	<script src="js/modernizr.js"></script>
 
 
 <link href="eventcss/responsive.css" rel="stylesheet" />
@@ -86,6 +88,7 @@
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+<div id="h" class="h-particles">
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
@@ -141,6 +144,7 @@ NOTE: Any one out of following is mandatory.</h4>
 
 </div>
 </section>
+</div>
 <section style="margin-top:50px">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
@@ -316,6 +320,9 @@ NOTE: Any one out of following is mandatory.</h4>
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+<script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>

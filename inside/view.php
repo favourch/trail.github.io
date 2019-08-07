@@ -46,42 +46,39 @@
 <!--parallax-->
 
 <!--MENU SECTION START-->
-<div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section" >
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="#">
-
-
-</a>
-</div>
-<div class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-right">
-<li><a href="../index.html">HOME</a></li>
-<li><a href="event.html">EVENTS</a></li>
-<li><a href="workshop.html">WORKSHOP</a></li>
-<li><a href="../gallary/index.html">GALLERY</a></li>
-<li><a href="../team/index.html">TEAM</a></li>
-<li><a href="sponsors.html">SPONSORS</a></li>
-<li><a href="contact.html">CONTACT</a></li>
-<li><a href="schedule.php">SCHEDULE</a></li>
-<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-        <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
-          <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
-          
-        </ul>
-      </li>
-</ul>
-</div>
-
-</div>
-</div>
+<div class="navbar navbar-inverse navbar-static-top" style="background:transparent; border:0px; margin-top:20px; margin-left:10%">
+			<div class="container" style="font-family:'Elianto';">
+				<a href="#" class="navbar-brand" style="font-family:Elianto; color:#ffffff" ><b>EQUILIBRIO</b></a>
+								<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>
+					<div class="collapse navbar-collapse navHeaderCollapse" style="font-family:Elianto; color:#ffffff;">
+						<ul class="nav navbar-nav navbar-right" >
+							<li> <a href="../index.html" style="color:#ffffff">HOME</a></li>
+							<li> <a href="event.html" style="color:#ffffff">EVENT</a></li>
+							<li> <a href="workshop.html" style="color:#ffffff">WORKSHOP</a></li>
+							<li> <a href="../gallary/index.html" style="color:#ffffff">GALLERY</a></li>
+							<li> <a href="../team/index.html" style="color:#ffffff">TEAM</a></li>
+							<li> <a href="sponsors.html" style="color:#ffffff">SPONSORS</a></li>
+							<li> <a href="contact.html" style="color:#ffffff">CONTACT</a></li>
+							<li> <a href="schedule.php" style="color:#ffffff">SCHEDULE</a></li>
+									
+							<li class="dropdown"> 
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1" type="button" aria-haspopup="true"
+								area-expanded="true" style="color:#ffffff">MORE <b class="caret"></b></a>
+								<ul class="dropdown-menu"  aria-labelledby="dropdownMenu1" >
+									<li> <a href="initiatives.php" style="color:#000000">INITIATIVE</a></li>
+									<li> <a href="accommodation.php" style="color:#000000">ACCOMMODATION</a></li>
+									<li> <a href="campusambassador.php" style="color:#000000">CAMPUS AMBASSADOR</a></li>
+										
+								</ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+         </div>
 <!--MENU SECTION END-->
 <!--HOME SECTION START-->
 
@@ -127,50 +124,38 @@
                       <label style="color:#e44f4f">Select your Event</label>
                         <div class="input-contact">
                           <select name="event">
-                               <option value="anti">AntiEarthquake Str.</option>
-                            <option value="band">Taal Sangram</option>
-                           <option value="bizwiz">Bizwhiz</option>
-                           <option value="brain">Brain Waves</option>
-                           <option value="cheme">Chem-eCar</option>
-                             <option value="mania">Chem-oMania</option>
-                             <option value="cod">Carnival Of Dance</option> 
-                              <option value="codebid">CodeBid</option>
-                             <option value="sense">CodeSense</option>
-                             <option value="counter">Counter Strike</option>
-                               <option value="designer">Design Er</option>
-                                 <option value="f1race">F1 Unleash the beast</option>
-                              <option value="fifa">Fifa</option>
-                               <option value="general">General Quiz</option>
-                               <option value="hydraulic">Hydraulic Crane</option>
-                               <option value="job">Job Battle</option>
-                               <option value="karyaneeti">Karyaneeti</option>
-                               <option value="lca">Light Camera Action</option>
-                            <option value="nfs">Need for Speed</option> 
-                             <option value="nirmaan">Nirmaan</option>
-                               <option value="paperp">Paper Presentation</option>
-                              <option value="petbottle">Pet-Bottle Rocket</option>
-                                <option value="roboterry">Roboterry</option>
-                               <option value="war">RoboWar</option>
-                                <option value="setu">Setu Sanrachna</option>
-                                  <option value="snakobot">SnakoBot</option>
-                                <option value="startup">Startup Mania</option>
-                                 <option value="technical">Technical Quiz</option>
-
-                            <option value="webpulse">WebPulse</option>
-                         <option value="soccer">Robo Soccer</option>
-                         <option value="aquabotix">Aquabotix</option>
-                         <option value="logicleague">Logic League</option>
-                         <option value="mini">Mini Militia</option>
+                          	<option value="amp">AMPHIBIANS </option>
+						<option value="rwr">ROBO WAR </option>
+						<option value="rso">ROBO SOCCER </option>
+						<option value="dsr">DESIGN ER. </option>
+						<option value="skb">SNAKOBOT</option>
+						<option value="rty" >ROBO TERRY</option>
+						<option value="mzp" >MAZOLYMPIC</option>
+						<option value="qui">QUIZZARD</option>
+						<option value="ent" >ENTREPRENEURIAL SKILLS QUOTIENT</option>
+						<option value="cas">CASE STUDY</option>
+						<option value="wws">WOLF OF WALLSTREET</option>
+						<option value="job">JOB FANTASY</option>
+						<option value="chm">CHEM-O MANIA</option>
+						<option value="cec">CHEM-E CAR</option>
+						<option value="ptb">PET-BOTTLE ROCKET</option>
+						<option value="nrm">NIRMAAN</option>
+						<option value="jso">JASOOS ENGINEER</option>
+						<option value="cad" >CAD SANGRAM</option>
+						<option value="ctq">CODE THE QUERIES</option>
+						<option value="dbg">DEBUG THE CODE</option>
+						<option value="cbd">CODE BID</option>
+						<option value="cds">CODE SENSE</option>
+						<option value="nfs">NEED FOR SPEED</option>
+						<option value="cs">COUNTER STRIKE</option>
+						<option value="mim">MINI MILITIA</option>
+						<!--<option value="fun">FUN ZONE</option>-->
+						<option value="cod" >CARNIVAL OF DANCE</option>
+						<option value="lca" >LIGHTS CAMERA ACTION</option>
+						<option value="mnm">MIX N MATCH</option>
                              </select>  
                         </div>
-                    </div>
-       
-         
-         
-        
-                    
-          
-                 
+                    </div>       
                 <div class="row">
                  
                     <div class="col-md-12">
@@ -206,13 +191,6 @@
 
            $event = $_POST['event'];
 
-           echo "<br><br>Team Number<br>";
-
-           echo "Team Code "." ------ "." No. of members<br>";
-
-           echo "Name "." ------ "." Age"." ------ "."Email"." ------ "."Phone No."." ------ "."College"." ------ "."Branch";
-
-
            $myfile = fopen("$event.txt", "r") or die("Unable to open file!");
 // Output one line until end-of-file
 while(!feof($myfile)) {
@@ -241,7 +219,8 @@ fclose($myfile);
 <!--GRID SECTION END-->
 
 
-<section style="margin-top:50px">
+<section style="margin-top:-10%">
+<h1 style="text-align:center;">Events</h1>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -251,39 +230,36 @@ fclose($myfile);
         <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <h4>MECHATRONICS</h4>
           <ul style="list-style-type:none;">
-            <li><a href="robowar.php">ROBOWAR</a></li>
-            <li><a href="f1.php">F1</a></li>
-            <li><a href="robosoccer.php">ROBO SOCCER</a></li>
-            <li><a href="aquabotix.php">AQUABOTIX</a></li>
-            <li><a href="designer.php">DESIGN ER.</a></li>
+            <li><a href="amphibians.php" >AMPHIBIANS </a></li>
+<li><a href="robowar.php" >ROBO WAR </a></li>
+<li><a href="robosoccer.php" >ROBO SOCCER </a></li>
+<li><a href="designer.php">DESIGN ER. </a></li>
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
-          <h4>AUTONOMOUS</h4>
+          <h4>AUTONOMUS</h4>
           <ul style="list-style-type:none;">
-            <li><a href="snakobot.php">SNAKOBOT</a></li>
-            <li><a href="nfs.php">NEED FOR SPEED</a></li>
-            <li><a href="roboterry.php">ROBO TERRY</a></li>
-            <li><a href="logic.php">LOGIC LEAGUE</a></li>
-           
+            <li><a href="snakobot.php" >SNAKOBOT </a></li>
+            <li><a href="roboterry.php" >ROBO TERRY</a></li>
+			<li><a href="MAZOLYMPIC.php">MAZOLYMPIC</a></li>
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
-          <h4>EXPOSURE</h4>
+          <h4>MANAGERIAL</h4>
           <ul style="list-style-type:none;">
-            <li><a href="startup.php">STARTUP BATTLE</a></li>
-            <li><a href="karyaneeti.php">KARYANEETI</a></li>
-            <li><a href="paperp.php">PAPER PRESENTATION</a></li>
-            <li><a href="job.php">JOB BATTLE</a></li>
-            
+          <li> <a href="quiz.php" style="margin-left:-10%">QUIZZARD</a></li>
+<li><a href="entrepre.php" style="margin-left:-10%">ENTREPRENEURIAL SKILLS QUOTIENT</a></li>
+<li><a href="casestdy.php" style="margin-left:-10%">CASE STUDY</a></li>
+<li><a href="wolf.php" style="margin-left:-10%">WOLF OF WALLSTREET</a></li>
+<li><a href="job.php" style="margin-left:-10%">JOB FANTASYY</a></li>
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>ALCHEMIST</h4>
           <ul style="list-style-type:none;">
-            <li><a href="chemo.php">CHEM-OMANIA</a></li>
-            <li><a href="cheme.php">CHEM -ECAR</a></li>
-            <li><a href="petbottle.php">PET BOTTLE ROCKET</a></li>
+           <li> <a href="chemo.php">CHEM-O MANIA </a></li>
+<li><a href="cheme.php" >CHEM-E CAR </a></li>
+<li><a href="petbottle.php" >PET-BOTTLE ROCKET </a></li>
           </ul>
         </div>
            
@@ -305,33 +281,31 @@ fclose($myfile);
         <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>CIVIL</h4>
           <ul style="list-style-type:none;">
-            <li><a href="nirmaan.php">NIRMAAN</a></li>
-            <li><a href="setu.php">SETU SANRACHNA</a></li>
-            <li><a href="anti.php">ANTIEARTHQUAKE STR.</a></li>
-            <li><a href="hydraulic.php">HYDRAULIC CRANE</a></li>
-        
+            <li><a href="nirmaan.php" >NIRMAAN </a></li>
+<li><a href="jasoos.php" >JASOOS ENGINEER </a></li>
+<li><a href="cadsan.php" >CAD SANGRAM </a></li>
+
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>CYBERNATE</h4>
           <ul style="list-style-type:none;">
-            <li><a href="codebid.php">CODE BID</a></li>
-            <li><a href="codesense.php">CODE SENSE</a></li>
-            <li><a href="brain.php">BRAIN WAVES</a></li>
-            <li><a href="webpulse">WEB PULSE </a></li>
+           <li><a href="ctq.php">CODE THE QUERIES</a></li>
+		   <li><a href="debug.php">DEBUG THE CODE</a></li>
+<li><a href="codebid.php" >CODE BID </a></li>
+<li><a href="codesense.php" >CODE SENSE </a></li>
             
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>GAMING</h4>
           <ul style="list-style-type:none;">
-            <li><a href="fifa.php">FIFA</a></li>
-            <li><a href="cs.php">COUNTER STRIKE</a></li>
-            <li><a href="mm.php">MINI MILITIA</a></li>
-
+          <li> <a href="nfs.php">NEED FOR SPEED</a></li>
+<li><a href="cs.php">COUNTER STRIKE </a></li>
+<li><a href="clash.php" >MINI MILITIA</a></li>
           </ul>
         </div>
-           <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
+           <!--<div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>QUIZZARD</h4>
           <ul style="list-style-type:none;">
             <li><a href="bizwiz.php">BIZWHIZ</a></li>
@@ -339,7 +313,7 @@ fclose($myfile);
             <li><a href="technical.php">TECHNICAL QUIZ</a></li>
             
           </ul>
-        </div>
+        </div>-->
            
      
         <div class="cl">&nbsp;</div>
@@ -359,22 +333,23 @@ fclose($myfile);
         <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <h4>CULTURAL</h4>
           <ul style="list-style-type:none;">
-            <li><a href="cod.php">CARNIVAL OF DANCE</a></li>
-            <li><a href="lca.php">LIGHT CAMERA ACTION</a></li>
-            <li><a href="band.php">TAAL SANGRAM</a></li>
+            <li><a href="funzone.php" >FUN ZONE </a></li>
+<li><a href="cod.php" >CARNIVAL OF DANCE </a></li>
+<li><a href="lca.php" >LIGHTS CAMERA ACTION </a></li>
+<li><a href="mixnm.php">MIX N MATCH</a></li>
             
           </ul>
         </div>
-           <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
+           <!--<div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <h4>USEFUL LINKS</h4>
           <ul style="list-style-type:none;">
             <li><a href="schedule.php">SCHEDULE</a></li>
             <li><a href="initiatives.php">INITIATIVES</a></li>
-            <li><a href="accommodation.php">ACCOMMODATION</a></li>
+			<li><a href="accommodation.php">ACCOMMODATION</a></li>
             <li><a href="campusambassador.php">CAMPUS AMBASSADOR</a></li>
            
           </ul>
-        </div>
+        </div>-->
          
            
      

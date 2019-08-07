@@ -24,6 +24,8 @@
 <link href="assets/css/style-solid-black.css" rel="stylesheet" />
 <link href="eventcss/style1.css" rel="stylesheet" />
 
+<!--<link rel="stylesheet" href="css/main.css">
+	<script src="js/modernizr.js"></script>-->
 
 <link href="eventcss/responsive.css" rel="stylesheet" />
 <link href="formcss/css/bootstrap.min.css" rel="stylesheet">
@@ -87,11 +89,12 @@
 <!--HOME SECTION START-->
 
 <!--GRID SECTION START-->
+
 <section id="grid" >
 <div class="container">
 <div class="row text-center header animate-in" data-anim-type="fade-in-up">
 
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="font-family:Elianto;">
 
 <hr />
 
@@ -312,7 +315,7 @@ if($email1w AND $email2w AND $email3w AND $email4w AND $email5w AND $email6w AND
        if($name5==!"" AND $email5==!""  AND $age5==!"" AND $number5==!"") {mysqli_query($con,"INSERT INTO $event(name,email,age,number,college,branch) VALUES('$name5','$email5','$age5','$number5','$college5','$branch5')");}
 
        if($name6==!"" AND $email6==!""  AND $age6==!"" AND $number6==!"") {mysqli_query($con,"INSERT INTO $event(name,email,age,number,college,branch) VALUES('$name6','$email6','$age6','$number6','$college6','$branch6')");}
-
+$event_part = strtoupper(substr($event,0,3));
 
   if(($name1==!"" AND $email1==!""  AND $age1==!"" AND $number1==!"") OR ($name2==!"" AND $email2==!""  AND $age2==!"" AND $number2==!"") OR ($name3==!"" AND $email3==!""  AND $age3==!"" AND $number3==!"") OR ($name4==!"" AND $email4==!""  AND $age4==!"" AND $number4==!"") OR ($name5==!"" AND $email5==!""  AND $age5==!"" AND $number5==!"") OR ($name6==!"" AND $email6==!""  AND $age6==!"" AND $number6==!""))    {
 
@@ -327,23 +330,24 @@ $id=$id+1;
 $text = <<<_END
 
 \n
-$id. 
+
+ID-eqb$id$event_part. 
 $event  $member Member
-$name1  $age1  $email1  $number1  $college1  $branch1 
-$name2  $age2  $email2  $number2  $college2  $branch2 
-$name3  $age3  $email3  $number3  $college3  $branch3 
-$name4  $age4  $email4  $number4  $college4  $branch4 
-$name5  $age5  $email5  $number5  $college5  $branch5 
-$name6  $age6  $email6  $number6  $college6  $branch6 
+MEMBER 1 DETAILS :- NAME-$name1  AGE-$age1  EMAIL-$email1  PH NO.-$number1  COLLEGE-$college1  BRANCH-$branch1 
+MEMBER 2 DETAILS :- NAME-$name2  AGE-$age2  EMAIL-$email2  PH NO.-$number2  COLLEGE-$college2  BRANCH-$branch2 
+MEMBER 3 DETAILS :- NAME-$name3  AGE-$age3  EMAIL-$email3  PH NO.-$number3  COLLEGE-$college3  BRANCH-$branch3 
+MEMBER 4 DETAILS :- NAME-$name4  AGE-$age4  EMAIL-$email4  PH NO.-$number4  COLLEGE-$college4  BRANCH-$branch4 
+MEMBER 5 DETAILS :- NAME-$name5  AGE-$age5  EMAIL-$email5  PH NO.-$number5  COLLEGE-$college5  BRANCH-$branch5 
+MEMBER 6 DETAILS :- NAME-$name6  AGE-$age6  EMAIL-$email6  PH NO.-$number6  COLLEGE-$college6  BRANCH-$branch6 
 \n
 
 _END;
 fwrite($fh, $text) or die("Could not write to file");
 fwrite($fh2, $id) or die("Could not write to file");
-$event_part = strtoupper(substr($event,0,3));
+$event_part = strtoupper(substr($event,0,5));
 echo "<div class='alert alert-success register'>
 <img src='assets/img/happy.png' width='128' height='128'/><br>
-<strong>Successfully Registered!<br><br><div class='text'>your team id is </div><div class='id'>$event_part$id</div></strong></div>";
+<strong>Successfully Registered!<br><br><div class='text'>your team id is </div><div class='id'>eqb$id$event_part</div></strong></div>";
 
 fclose($fh);
 fclose($fh1);
@@ -383,11 +387,11 @@ You have not given sufficient details for event registration. Please try again.<
 .text{color:#00838F;}
 .id{color:rgb(288,79,79);font-size:2em }
 </style>
-<div class="row pad-bottom animate-in" data-anim-type="fade-in-up">
+<div class="row pad-bottom animate-in" data-anim-type="fade-in-up" style="font-family:Elianto; font-size:3rem ">
 
   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-    <h3 style="text-align:center;color:#00838F">After Registration</h3><br>
-   <ul style="font-size:1em;list-style-type:none">
+    <h3 style="text-align:center;color:#00838F;font-size:3rem">After Registration</h3><br>
+   <ul style="font-size:1em;list-style-type:none;">
       <li>Kindly remember your Team Id.</li><br>
       <li>Report directly to your Event Coordinator on the Day of event with your Team Id.</li><br>
       <li>You are advised to carry an id-card for verfication.</li><br>
@@ -395,25 +399,28 @@ You have not given sufficient details for event registration. Please try again.<
     </ul>
   </div>
    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-    <h3  style="text-align:center;color:rgb(288,79,79)">If not registered</h3><br>
+    <h3  style="text-align:center;color:rgb(288,79,79);font-size:3rem">If not registered</h3><br>
     <ul style="font-size:1em;list-style-type:none">
       <li>Please fill all details necessary for registration.</li><br>
       <li>Make sure none of your team member is already registered in the event.</li><br>
-      
+      <!--<p> register for accomodation if required <a href="accommodation.php">click here</a></p>-->
     </ul>
   </div>
-
+     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p style="text-align:center; color:red"> Register for accomodation if required <a href="accommodation.php">click here</a></p>
+</div>
 </div>
 
 
 
 </div>
-</section>
 
 <!--GRID SECTION END-->
 <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
 <!-- CORE JQUERY -->
  <script src="formcss/js/jquery-2.1.1.js"></script>
+</section>
+
     <!--  plugins -->
    
     <script src="formcss/js/isotope.pkgd.min.js"></script>
@@ -438,6 +445,9 @@ You have not given sufficient details for event registration. Please try again.<
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom.js"></script>
+
+<!--<script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>-->
 </body>
 
 </html>

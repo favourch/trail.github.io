@@ -47,14 +47,14 @@
 <body data-spy="scroll" data-target="#menu-section" onload="init()">
 <!--parallax-->
 <div class="content">
-    <style type="text/css">
+    <!--<style type="text/css">
    
 .planet1{
 
 background:url(parallax/css/images/cheme1.png) no-repeat;}
 .planet2{
 background:url(parallax/css/images/cheme2.png) no-repeat;}
-    </style>
+    </style>-->
               <span class="planet1"></span>
               <span class="planet2"></span>
             
@@ -64,42 +64,39 @@ background:url(parallax/css/images/cheme2.png) no-repeat;}
 <!--parallax-->
 
 <!--MENU SECTION START-->
-<div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section" >
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="#">
-
-
-</a>
-</div>
-<div class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-right">
-<li><a href="../index.html">HOME</a></li>
-<li><a href="event.html">EVENTS</a></li>
-<li><a href="workshop.html">WORKSHOP</a></li>
-<li><a href="../gallary/index.html">GALLERY</a></li>
-<li><a href="../team/index.html">TEAM</a></li>
-<li><a href="sponsors.html">SPONSORS</a></li>
-<li><a href="contact.html">CONTACT</a></li>
-<li><a href="schedule.php">SCHEDULE</a></li>
-<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-        <li><a href="initiatives.php"><b>INITIATIVES</b></a></li>
-       <li class="active"><a href="accommodation.php"><b>ACCOMMODATION</b></a></li>
-          <li><a href="campusambassador.php"><b>CAMPUS AMBASSADOR</b></a></li>
-          
-        </ul>
-      </li>
-</ul>
-</div>
-
-</div>
-</div>
+<div class="navbar navbar-inverse navbar-static-top" style="background:transparent; border:0px; margin-top:20px; margin-left:10%">
+			<div class="container" style="font-family:'Elianto';">
+				<a href="#" class="navbar-brand" style="font-family:Elianto; color:#ffffff" ><b>EQUILIBRIO</b></a>
+								<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>
+					<div class="collapse navbar-collapse navHeaderCollapse" style="font-family:Elianto; color:#ffffff;">
+						<ul class="nav navbar-nav navbar-right" >
+							<li> <a href="../index.html" style="color:#ffffff">HOME</a></li>
+							<li> <a href="event.html" style="color:#ffffff">EVENT</a></li>
+							<li> <a href="workshop.html" style="color:#ffffff">WORKSHOP</a></li>
+							<li> <a href="../gallary/index.html" style="color:#ffffff">GALLERY</a></li>
+							<li> <a href="../team/index.html" style="color:#ffffff">TEAM</a></li>
+							<li> <a href="sponsors.html" style="color:#ffffff">SPONSORS</a></li>
+							<li> <a href="contact.html" style="color:#ffffff">CONTACT</a></li>
+							<li> <a href="schedule.php" style="color:#ffffff">SCHEDULE</a></li>
+									
+							<li class="dropdown"> 
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1" type="button" aria-haspopup="true"
+								area-expanded="true" style="color:#ffffff">MORE <b class="caret"></b></a>
+								<ul class="dropdown-menu"  aria-labelledby="dropdownMenu1" >
+									<li> <a href="initiatives.php" style="color:#000000">INITIATIVE</a></li>
+									<li> <a href="accommodation.php" style="color:#000000">ACCOMMODATION</a></li>
+									<li> <a href="campusambassador.php" style="color:#000000">CAMPUS AMBASSADOR</a></li>
+										
+								</ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+         </div>
 <!--MENU SECTION END-->
 <!--HOME SECTION START-->
 
@@ -124,10 +121,12 @@ background:url(parallax/css/images/cheme2.png) no-repeat;}
 <div class="parrent pull-left">
 <ul class="nav nav-tabs nav-stacked">
 <li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">Event Description</a></li>
-<li><a href="#tab2" data-toggle="tab" class="analistic-02">Rounds</a></li>
-<li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Rules</a></li>
-<li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Special Notes</a></li>
-<li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Prize</a></li>
+<li><a href="#tab2" data-toggle="tab" class="analistic-02">Round 1</a></li>
+<li><a href="#tab3" data-toggle="tab" class="analistic-02">Round 2</a></li>
+<li><a href="#tab4" data-toggle="tab" class="analistic-02">Round 3</a></li>
+<li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Rules</a></li>
+<li class=""><a href="#tab6" data-toggle="tab" class="tehnical">Special Notes</a></li>
+<li class=""><a href="#tab7" data-toggle="tab" class="tehnical">Prize</a></li>
 </ul>
 </div>
 <div class="parrent media-body" style="font-size:1.2em">
@@ -142,7 +141,14 @@ background:url(parallax/css/images/cheme2.png) no-repeat;}
 <p>Chem-e-car is the major event represented by chemical engg in equilibrio 2k18.
 It gives an idea of how to drive a car by using chemical reaction & how to stop a car 
 by using kinetics of clock reaction and autonomous.
-</p><br>
+</p><br><h4>
+STAGES OF COMPETITION</h4><li>
+Abstract submission: details (weightage 10%)</li><br><li>
+Performing round (event day) : (weightage 70%)</li><br><li>
+Viva/presentation round (event day) : (weightage 20%)</li><br>
+<h4>OBJECTIVES:</h4>
+To design a chemical energy powered car that can carry a given amount of load and move specified
+distance.
 
 
 </div>
@@ -154,21 +160,25 @@ by using kinetics of clock reaction and autonomous.
 
 </div>
 <div class="media-body">
-<h3>ROUNDS</h3>
+<h3>Round 1</h3>
 <p>
-<ol>
-<li>Paper Presentation:- <ul><li> Design of Car.</li>
-        <li> Description of Car.</li>
-         <li>Environmental Aspects.</li></ul>
-        
-
-</li><br>
-<li> Performance of Car:-<br>We will provide an arena of specific length which is to be
-covered by the car with specified weight of water container & stop at the end of arena.
-Marking will be done on the basis of position of the car from the end point. </li>
-
-</ol>
-
+Abstract submission round: (weightage 10%)- mandatory for further selection
+<li> Abstract must contain</li><br><li>
+ Introduction of team members.</li><br><li>
+ Schematic of vehicles</li><br><li>
+ Cost of chemical required</li><br><li>
+Car feature and setup</li><br><li>
+ Chemical reaction used and its details</li><br><li>
+ Creativity in car design</li><br><li>
+ Environmental and safety feature</li><br><li>
+Send your abstract in ‘.pdf’ or ‘.ppt’ format to <a>sakchhi470@gmail.com </a>or
+<a>neeteeshkaushik01@gmail.com</a> Subject of mail should be “ Chem-E- Car_Abstract_&lt;Team-Name&gt;”
+and file name must be &lt;Team-Name&gt;.pdf or &lt;Team-Name&gt;.ppt</li><br><li>
+ Selection of further round depends on last abstract submitted till 10 th January 2018.</li><br><li>
+ The result of selected abstract will be put on the website &amp; facebook page of eqilibrio and will also
+be mailed to you by 12 th january 2018.</li><br><li>
+ Feel free to contact our competition managers for any queries.</li><br><li>
+ Penalty will be imposed if the model deviates from the abstract submitted.</li><br>
 
 </p>
 </div>
@@ -176,28 +186,106 @@ Marking will be done on the basis of position of the car from the end point. </l
 </div>
 <div class="tab-pane fade" id="tab3">
 <p>
-<h3>RULES</h3>
-<ol><li>Paper Presentation has 30% weightage. </li><br>
-<li>Performance of Car has 70% weightage.</li><br>
-<li>If any HAZARDOUS & EXPLOSIVE CHEMICALS are found to be used then the
-participant will be rejected and will not be eligible to participate in 2nd Round.
-</li><br>
-<li>Maximum permissible weight of the car is 9 kg.</li><br>
-<li>The capital cost of car should not be more than Rs.7000.</li><br>
-<li>No. of maximum participants in a group is four.</li><br>
+
+<ol><h3>PERFORMING ROUND : (WEIGHTAGE – 70%)</h3>
+<br>
+A trail will be given to each team. In this car would be checked for emission of harmful
+chemicals, if found so team will be eliminated. Team will be disqualified if judge deems the car unsafe for
+run on the given venue. Only one opportunity will be given.
+<li><h3>STARTING CAR</h4></li>
+Only two minutes will be given to setup the model. Once the car crosses the starting line, team
+cannot touch their car i.e. No chemicals can be added else after. Any contact with the car their after
+will lead to disqualification. Any type of mechanical device or push for the starting of a car will result
+in penalty. If car is initiated and not moving (i.e. Till it has not crossed start line), you can retouch the
+car if you are within your time limit of two minutes.<br>
+
+<li><h3>STRENGTH TEST</h3></li>
+Car is expected to carry a specified payload of 0-500 grams. Car should have a proper room to keep
+the load. One of the organiser from team eqilibrio will measure the payload and it would be given to
+you to pour it in your car. Required payload will be informed 2 hours prior to start of competition.
+<br>
+<li><h3>TRACK DETAILS</h3></li>
+Car should traverse a distance of 8-15 metres in a rectangular area of width 1.5 – 2 metres. Required
+distance will be traversed will be given to each team for two hour prior to start of performing round.
+Track includes 3rammers/ speed breakers equally spaced and rough patch of 1-1.5 metres as shown
+in figure.
+<br>
+<li><h3>COURSE LAYOUT</h3></li>
+The foremost point of car’s initial and final position will be noted down to calculate the distance
+traversed by the car. Distance of middle-foremost point from middle line will be measured to
+calculate the deviation of car. Finish distance will be measured from the finish line. The distance will
+be always be measured from the finish line to the front of the car. A vehicle goes outside the course
+will have its distance measured to where it went out of bounds and accordingly penalty in the form
+of point deduction will be imposed.<br>
+
+<li><h3>DIMENSION OF CAR</h3></li>
+Car must fit in the box of 50 ×35×35 cm 3 . Car may be disassembled to meet the requirement. If the
+judges are uncertain whether the car will fit inside the box when disassembled, they may request
+that the team demonstrate that they can do this.<br>
+
+<li><h3>PROVISION OF CHEMICALS</h3></li>
+Teams are responsible for bringing their chemical supplies. Disposal of the waste in the disposal site
+is team’s responsibility.<br>
+
+<li><h3> WORKING OF CAR</h3></li>
+Car working mostly depends upon the chemical reaction and to control the product of the reaction.
+The car must be powered and stopped by a chemical reaction.
+Use of commercial batteries or commercial engines is strictly prohibited in your car system.
+<br>
+<li><h3>DURATION OF RUN</h3></li>
+
+The maximum time limit for the run is 4 minutes. If the car is still moving in the end of the 4 minutes
+will be consider as its final position and time opf travel as 4 minutes. If the car is not moving after
+initiation of car for a time of one minute, your team will be eliminated or position will be noted down
+and time of run will be calculated as 4 minutes.<br>
+
+<li><h3>TRAIL RUNS AND RESET</h3></li>
+An hour timing will be reserved for all teams to take trails runs before the actual run starts.
+One reset will be permissible if car goes out of bounds/track layout and does not pass through rough
+patch. Again if car goes out of track then best of two measurement will be taken for calculation of
+points.<br>
+
+<li><h3> ECONOMICS</h3></li>
+Abstract must include the amount and the cost of all chemicals
+required for the construction of your car.<br>
 </ol>     
 </p>
 </div>
 <div class="tab-pane fade" id="tab4">
-<p><H3>SPECIAL NOTES</H3>
-<ol><li>
-If it is possible then participants have to bring the video of their own practice</li><br>
-<li>If dry cell is used as driving mechanism then 50% of the performance marks will be deducted.</li><br>
+<h3>PRESENTATION/ VIVA ROUND : (WEIGHTAGE – 20%)</h3>
 
-</ol>
-</p>
+<li>This will be face to face round with the judge; you will be graded purely on the viva taken by
+judges.</li><br><li>
+ This will be more of technical interview taken by our judges.<li>
 </div>
 <div class="tab-pane fade" id="tab5">
+<p><H3>GENERAL RULES</H3>
+<ol><li>
+Each team may have maximum of four members. Multiple teams from same institution are allowed,
+considering their abstract and model is not same.</li><br><li>
+Final date of abstract submission is 10 January 2018.</li><br><li>
+Cost of chemical used must be mentioned in abstract.</li><br><li>
+Decision made by committee and judges will be final.</li></ol>
+</p>
+</div>
+<div class="tab-pane fade" id="tab6">
+<h3>SAFETY MEASURES</h3>
+Each team must use appropriate safety measures. Which are as follows:-
+<li>Every chemical must be labelled properly, in English, with team identity. The container of chemicals
+must be covered as well.</li><br><li>
+• Proper protective measures must be taken by team against chemicals and electric hazards. I.e. to
+prevent human exposure to these chemicals and to prevent the possibility of electric shock.</li><br><li>
+
+• Every team has to bring their own equipment. These equipment may include lab coats, safety
+glasses, gloves, face shields, and hearing protection.</li><br>
+
+<h3>Certification policy</h3>
+
+<li> Top two winners will be awarded with prises and certificates of merit.</li><br><li>
+Third will be awarded with certificate only.</li>
+
+</div>
+<div class="tab-pane fade" id="tab7">
 <p><H3>PRIZE</H3>
 <ol><li>RS</li><br>
 <li>RS</li><br>
@@ -221,8 +309,8 @@ If it is possible then participants have to bring the video of their own practic
 <img class="img-responsive img-circle" src="eventhead.png">
 </div>
 <div class="media-body">
-<!--<h3 style="color:#fff;margin-left:10px">Vikash Kr. Chandravanshi </h3>
-<h4 style="color:#fff;margin-left:10px">Ph no. 8962108350</h4>-->
+<h3 style="color:#fff;margin-left:10px">Sakchhi Srivastava</h3>
+<h4 style="color:#fff;margin-left:10px">Ph no. 9473444176</h4>
 </div>
 </div>
 
@@ -291,40 +379,9 @@ If it is possible then participants have to bring the video of their own practic
                       <label style="color:#e44f4f">Select your Event</label>
                         <div class="input-contact">
                           <select name="event">
-                               <option value="anti">AntiEarthquake Str.</option>
-                            <option value="band">Taal Sangram</option>
-                           <option value="bizwiz">Bizwhiz</option>
-                           <option value="brain">Brain Waves</option>
-                           <option value="cheme">Chem-eCar</option>
-                             <option value="mania">Chem-oMania</option>
-                             <option value="cod">Carnival Of Dance</option> 
-                              <option value="codebid">CodeBid</option>
-                             <option value="sense">CodeSense</option>
-                             <option value="counter">Counter Strike</option>
-                               <option value="designer">Design Er</option>
-                                 <option value="f1race">F1 Unleash the beast</option>
-                              <option value="fifa">Fifa</option>
-                               <option value="general">General Quiz</option>
-                               <option value="hydraulic">Hydraulic Crane</option>
-                               <option value="job">Job Battle</option>
-                               <option value="karyaneeti">Karyaneeti</option>
-                               <option value="lca">Light Camera Action</option>
-                            <option value="nfs">Need for Speed</option> 
-                             <option value="nirmaan">Nirmaan</option>
-                               <option value="paperp">Paper Presentation</option>
-                              <option value="petbottle">Pet-Bottle Rocket</option>
-                                <option value="roboterry">Roboterry</option>
-                               <option value="war">RoboWar</option>
-                                <option value="setu">Setu Sanrachna</option>
-                                  <option value="snakobot">SnakoBot</option>
-                                <option value="startup">Startup Mania</option>
-                                 <option value="technical">Technical Quiz</option>
-
-                            <option value="webpulse">WebPulse</option>
-                         <option value="soccer">Robo Soccer</option>
-                         <option value="aquabotix">Aquabotix</option>
-                         <option value="logicleague">Logic League</option>
-                         <option value="mini">Mini Militia</option>
+                           
+                           <option value="cec">Chem-eCar</option>
+                          
                              </select>  
                         </div>
                     </div>
@@ -643,7 +700,7 @@ If it is possible then participants have to bring the video of their own practic
 </div>
 <!--GRID SECTION END-->
 
-<section id="workshops" >
+<section id="workshops" style="margin-left:-10%">
 <div class="container">
 
 <div class="row animate-in" data-anim-type="fade-in-up">
@@ -655,7 +712,7 @@ If it is possible then participants have to bring the video of their own practic
 <div class="price">
 <?php
 include('dbconnect.php');
-$fh1 = fopen("cheme1.txt", 'r+') or
+$fh1 = fopen("cec1.txt", 'r+') or
 die("File does not exist or you lack permission to open it");
 $id = fgets($fh1);
 echo $id;
@@ -687,7 +744,7 @@ DATE
 <?php
 include('dbconnect.php');
 
-$num = mysqli_num_rows(mysqli_query($con,"SELECT * FROM cheme"));
+$num = mysqli_num_rows(mysqli_query($con,"SELECT * FROM cec"));
 echo $num;
  ?>
 <small>in this event</small>
@@ -708,201 +765,8 @@ PARTICIPANTS
 
 
 
-<!--gallery-->
-
-<!--<section id="work" >
-<div class="container">
-<div class="row text-center header animate-in" data-anim-type="fade-in-up">
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<h3>Event Gallery</h3>
-<hr />
-</div>
-</div>
-<div class="row text-center animate-in" data-anim-type="fade-in-up" >
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pad-bottom">
-<div class="caegories">
-<a href="#" data-filter="*" class="active btn btn-custom btn-custom-two btn-sm">All</a>
-<a href="#" data-filter=".f1" class="btn btn-custom btn-custom-two btn-sm">F1</a>
-<a href="#" data-filter=".lca" class="btn btn-custom btn-custom-two btn-sm">LCA</a>
-<a href="#" data-filter=".ts" class="btn btn-custom btn-custom-two btn-sm" >Taal Sangram</a>
-<a href="#" data-filter=".snako" class="btn btn-custom btn-custom-two btn-sm" >Snakobot</a>
-<a href="#" data-filter=".civil" class="btn btn-custom btn-custom-two btn-sm" >Civil</a>
-<a href="#" data-filter=".war" class="btn btn-custom btn-custom-two btn-sm" >Robowar</a>
-</div>
-</div>
-</div>
-<div class="row text-center animate-in" data-anim-type="fade-in-up" id="work-div">
-
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 f1">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/1.png">
-
-<img src="assets/img/portfolio/1.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ts">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/2.png">
-
-<img src="assets/img/portfolio/2.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 lca">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/3.jpg">
-
-<img src="assets/img/portfolio/3.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 war">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/4.png">
-
-<img src="assets/img/portfolio/4.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 lca">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/5.jpg">
-
-<img src="assets/img/portfolio/5.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 snako">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/6.png">
-
-<img src="assets/img/portfolio/6.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 f1">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/7.png">
-
-<img src="assets/img/portfolio/7.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 civil">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/8.png">
-
-<img src="assets/img/portfolio/8.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 snako">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/9.png">
-
-<img src="assets/img/portfolio/9.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 civil">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/10.png">
-
-<img src="assets/img/portfolio/10.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 lca">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/11.png">
-
-<img src="assets/img/portfolio/11.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 lca">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/12.jpg">
-
-<img src="assets/img/portfolio/12.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 war">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/13.png">
-
-<img src="assets/img/portfolio/13.png" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 lca">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/14.jpg">
-
-<img src="assets/img/portfolio/14.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ts">
-<div class="work-wrapper">
-
-<a class="fancybox-media" title="" href="assets/img/portfolio/15.jpg">
-
-<img src="assets/img/portfolio/15.jpg" class="img-responsive img-rounded" alt="" />
-</a>
-
-<h4></h4>
-</div>
-</div>
-</div>
-</div>
-</section>-->
 <section style="margin-top:-10%">
-<h3 style="text-align:center">EVENT</h3>
+<h1 style="text-align:center;">Events</h1>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div id="footer">
     <!-- shell -->
@@ -912,39 +776,36 @@ PARTICIPANTS
         <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <h4>MECHATRONICS</h4>
           <ul style="list-style-type:none;">
-            <li><a href="robowar.php">ROBOWAR</a></li>
-            <li><a href="f1.php">F1</a></li>
-            <li><a href="robosoccer.php">ROBO SOCCER</a></li>
-            <li><a href="aquabotix.php">AQUABOTIX</a></li>
-            <li><a href="designer.php">DESIGN ER.</a></li>
+            <li><a href="amphibians.php" >AMPHIBIANS </a></li>
+<li><a href="robowar.php" >ROBO WAR </a></li>
+<li><a href="robosoccer.php" >ROBO SOCCER </a></li>
+<li><a href="designer.php">DESIGN ER. </a></li>
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
-          <h4>AUTONOMOUS</h4>
+          <h4>AUTONOMUS</h4>
           <ul style="list-style-type:none;">
-            <li><a href="snakobot.php">SNAKOBOT</a></li>
-            <li><a href="nfs.php">NEED FOR SPEED</a></li>
-            <li><a href="roboterry.php">ROBO TERRY</a></li>
-            <li><a href="logic.php">LOGIC LEAGUE</a></li>
-           
+            <li><a href="snakobot.php" >SNAKOBOT </a></li>
+            <li><a href="roboterry.php" >ROBO TERRY</a></li>
+			<li><a href="MAZOLYMPIC.php">MAZOLYMPIC</a></li>
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
-          <h4>EXPOSURE</h4>
+          <h4>MANAGERIAL</h4>
           <ul style="list-style-type:none;">
-            <li><a href="startup.php">STARTUP BATTLE</a></li>
-            <li><a href="karyaneeti.php">KARYANEETI</a></li>
-            <li><a href="paperp.php">PAPER PRESENTATION</a></li>
-            <li><a href="job.php">JOB BATTLE</a></li>
-            
+          <li> <a href="quiz.php" style="margin-left:-10%">QUIZZARD</a></li>
+<li><a href="entrepre.php" style="margin-left:-10%">ENTREPRENEURIAL SKILLS QUOTIENT</a></li>
+<li><a href="casestdy.php" style="margin-left:-10%">CASE STUDY</a></li>
+<li><a href="wolf.php" style="margin-left:-10%">WOLF OF WALLSTREET</a></li>
+<li><a href="job.php" style="margin-left:-10%">JOB FANTASYY</a></li>
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>ALCHEMIST</h4>
           <ul style="list-style-type:none;">
-            <li><a href="chemo.php">CHEM-OMANIA</a></li>
-            <li><a href="cheme.php">CHEM -ECAR</a></li>
-            <li><a href="petbottle.php">PET BOTTLE ROCKET</a></li>
+           <li> <a href="chemo.php">CHEM-O MANIA </a></li>
+<li><a href="cheme.php" >CHEM-E CAR </a></li>
+<li><a href="petbottle.php" >PET-BOTTLE ROCKET </a></li>
           </ul>
         </div>
            
@@ -966,33 +827,31 @@ PARTICIPANTS
         <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>CIVIL</h4>
           <ul style="list-style-type:none;">
-            <li><a href="nirmaan.php">NIRMAAN</a></li>
-            <li><a href="setu.php">SETU SANRACHNA</a></li>
-            <li><a href="anti.php">ANTIEARTHQUAKE STR.</a></li>
-            <li><a href="hydraulic.php">HYDRAULIC CRANE</a></li>
-        
+            <li><a href="nirmaan.php" >NIRMAAN </a></li>
+<li><a href="jasoos.php" >JASOOS ENGINEER </a></li>
+<li><a href="cadsan.php" >CAD SANGRAM </a></li>
+
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>CYBERNATE</h4>
           <ul style="list-style-type:none;">
-            <li><a href="codebid.php">CODE BID</a></li>
-            <li><a href="codesense.php">CODE SENSE</a></li>
-            <li><a href="brain.php">BRAIN WAVES</a></li>
-            <li><a href="webpulse">WEB PULSE </a></li>
+           <li><a href="ctq.php">CODE THE QUERIES</a></li>
+		   <li><a href="debug.php">DEBUG THE CODE</a></li>
+<li><a href="codebid.php" >CODE BID </a></li>
+<li><a href="codesense.php" >CODE SENSE </a></li>
             
           </ul>
         </div>
            <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>GAMING</h4>
           <ul style="list-style-type:none;">
-            <li><a href="fifa.php">FIFA</a></li>
-            <li><a href="cs.php">COUNTER STRIKE</a></li>
-            <li><a href="mm.php">MINI MILITIA</a></li>
-
+          <li> <a href="nfs.php">NEED FOR SPEED</a></li>
+<li><a href="cs.php">COUNTER STRIKE </a></li>
+<li><a href="clash.php" >MINI MILITIA</a></li>
           </ul>
         </div>
-           <div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
+           <!--<div class="col col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h4>QUIZZARD</h4>
           <ul style="list-style-type:none;">
             <li><a href="bizwiz.php">BIZWHIZ</a></li>
@@ -1000,7 +859,7 @@ PARTICIPANTS
             <li><a href="technical.php">TECHNICAL QUIZ</a></li>
             
           </ul>
-        </div>
+        </div>-->
            
      
         <div class="cl">&nbsp;</div>
@@ -1020,22 +879,23 @@ PARTICIPANTS
         <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <h4>CULTURAL</h4>
           <ul style="list-style-type:none;">
-            <li><a href="cod.php">CARNIVAL OF DANCE</a></li>
-            <li><a href="lca.php">LIGHT CAMERA ACTION</a></li>
-            <li><a href="band.php">TAAL SANGRAM</a></li>
+            <li><a href="funzone.php" >FUN ZONE </a></li>
+<li><a href="cod.php" >CARNIVAL OF DANCE </a></li>
+<li><a href="lca.php" >LIGHTS CAMERA ACTION </a></li>
+<li><a href="mixnm.php">MIX N MATCH</a></li>
             
           </ul>
         </div>
-           <div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
+           <!--<div class="col col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <h4>USEFUL LINKS</h4>
           <ul style="list-style-type:none;">
             <li><a href="schedule.php">SCHEDULE</a></li>
             <li><a href="initiatives.php">INITIATIVES</a></li>
-            <li><a href="accommodation.php">ACCOMMODATION</a></li>
+			<li><a href="accommodation.php">ACCOMMODATION</a></li>
             <li><a href="campusambassador.php">CAMPUS AMBASSADOR</a></li>
            
           </ul>
-        </div>
+        </div>-->
          
            
      

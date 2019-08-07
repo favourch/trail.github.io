@@ -1,4 +1,4 @@
-CREATE TABLE `anti` (
+CREATE TABLE `amp` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -10,7 +10,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `band` (
+CREATE TABLE `cad` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -22,7 +22,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `bizwiz` (
+CREATE TABLE `cas` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -34,7 +34,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `brain` (
+CREATE TABLE `mim` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -46,7 +46,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `cheme` (
+CREATE TABLE `cec` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -58,7 +58,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `mania` (
+CREATE TABLE `chm` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -84,7 +84,7 @@ ENGINE=InnoDB
 ;
 
 
-CREATE TABLE `codebid` (
+CREATE TABLE `cbd` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -97,7 +97,7 @@ ENGINE=InnoDB
 ;
 
 
-CREATE TABLE `sense` (
+CREATE TABLE `cds` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -109,7 +109,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `counter` (
+CREATE TABLE `cs` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -121,7 +121,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `designer` (
+CREATE TABLE `dsr` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -133,7 +133,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `f1race` (
+CREATE TABLE `ctq` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -145,7 +145,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `fifa` (
+CREATE TABLE `ent` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -157,7 +157,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `general` (
+CREATE TABLE `jso` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -169,7 +169,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `hydraulic` (
+CREATE TABLE `mzp` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -193,7 +193,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `karyaneeti` (
+CREATE TABLE `lca` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -205,7 +205,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `lca` (
+CREATE TABLE `mnm` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -230,7 +230,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `nirmaan` (
+CREATE TABLE `nrm` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -243,7 +243,7 @@ ENGINE=InnoDB
 ;
 
 
-CREATE TABLE `paperp` (
+CREATE TABLE `qui` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -255,7 +255,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `petbottle` (
+CREATE TABLE `ptb` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -267,7 +267,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `roboterry` (
+CREATE TABLE `rty` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -279,7 +279,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `war` (
+CREATE TABLE `rwr` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -291,7 +291,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `setu` (
+CREATE TABLE `rso` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -303,7 +303,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `snakobot` (
+CREATE TABLE `skb` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -315,7 +315,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `startup` (
+CREATE TABLE `wws` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -327,7 +327,7 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
-CREATE TABLE `technical` (
+CREATE TABLE `dbg` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
 	`age` CHAR(50) NULL DEFAULT NULL,
@@ -339,6 +339,12 @@ COLLATE='latin1_swedish_ci'
 ENGINE=InnoDB
 ;
 
+
+
+
+
+
+/////////////////////////////////////////////////////////
 CREATE TABLE `webpulse` (
 	`name` CHAR(50) NULL DEFAULT NULL,
 	`email` VARCHAR(50) NULL DEFAULT NULL,
